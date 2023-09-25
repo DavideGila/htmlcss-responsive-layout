@@ -238,7 +238,7 @@ section:nth-child(3) .card > p {
     background-image: url(../img/testimonial3.jpg);
 }
 
-/* section about us */
+/* section work with us */
 
 section:nth-child(4) {
     padding: 40px 0;
@@ -281,4 +281,41 @@ section:nth-child(4) {
     font-size: 20px;
     margin: 30px 0;
     text-decoration: none;
+}
+
+/* section about us */
+
+section:nth-child(5) h2 {
+    font-size: 45px;
+    color: var(--color-primary-color);
+}
+
+section:nth-child(5) p {
+    color: var(--color-text);
+}
+
+section:nth-child(5) p:nth-child(2) {
+    margin-bottom: 30px;
+}
+
+.card-image-about-us {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-img4 {
+    background-image: url(../img/about.jpg);
+    position: relative;
+}
+
+.card-image-about-us i {
+    color: var(--color-primary-color);
+    font-size: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
