@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* debug */
+.debug {
+    border: 1px solid red;
+}
+
+/* variables */
+:root {
+    --color-secondary-color: #0084fd;
+    --color-dark-color: #333333;
+    --color-light-color: #ffffff;
+    --color-primary-color: #9792e4;
+    --color-bg-card: #b5ddff;
+    --color-contrast-color: #fcc060;
+    --color-text: #424242;
+}
