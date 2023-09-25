@@ -369,3 +369,18 @@ section:nth-child(6) div {
 .fa-circle {
     font-size: 5px;
 }
+
+/* footer */
+
+footer {
+    background-color: var(--color-dark-color);
+    color: var(--color-light-color);
+}
+
+footer div:first-child {
+    padding: 40px 0;
+}
+
+footer div:nth-child(2) {
+    padding-bottom: 40px;
+}
