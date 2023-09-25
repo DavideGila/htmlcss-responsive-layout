@@ -189,3 +189,46 @@ section:nth-child(2) div:nth-child(2) a {
 section:nth-child(2) div:nth-child(2) i {
     color: var(--color-dark-color);
 }
+
+/* section team */
+
+.card .fa-quote-left, .card .fa-quote-right {
+    font-size: 20px;
+    color: var(--color-light-color);
+}
+
+section:nth-child(3) p {
+    color: var(--color-text);
+}
+
+section:nth-child(3) .card {
+    background-color: var(--color-primary-color);
+}
+
+section:nth-child(3) .card > p {
+    color: var(--color-light-color);
+}
+
+.card-image {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover  ;
+    background-image: url(../img/testimonial1.jpg);
+}
+
+.card-name {
+    color: var(--color-light-color);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bg-img2 {
+    background-image: url(../img/testimonial2.jpg);
+}
+
+.bg-img3 {
+    background-image: url(../img/testimonial3.jpg);
+}
