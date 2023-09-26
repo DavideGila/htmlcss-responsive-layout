@@ -394,3 +394,30 @@ footer div:first-child {
 footer div:nth-child(2) {
     padding-bottom: 40px;
 }
+
+
+/* media queries */
+@media screen and (max-width: 576px) {
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .mobile-container {
+        max-width: 660px;
+    }
+
+    .card-servizi {
+        width: calc(100% / 3 - 15px);
+    }
+
+    .card-servizi:first-child, .card-servizi:nth-child(1) {
+        width: calc((100% / 3) * 2);
+    }
+
+    .flex-servizi {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+}
